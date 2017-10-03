@@ -1,0 +1,75 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+  color: white;
+  background-color: #06a77d;
+}
+
+.content {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+nav {
+  background-color: #f1a208;
+  width: 100%;
+  display: table;
+  height: 40px;
+  clear: both;
+}
+
+nav div {
+  display: table-cell;
+  vertical-align: middle;
+  height: 40px;
+}
+
+nav a {
+  padding: 10px;
+  color: #005377;
+}
+
+nav a:visited {
+  color: #052f5f;
+}
+
+
+
+#assignment {
+  border: medium solid #d5c67a;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+#assignment td {
+  border: medium solid #d5c67a;
+  background-color: #052f5f;
+  padding: 8px;
+}
+
+#assignment tr:nth-child(odd) td {
+  background-color: #005377;
+}
+
+#assignment tr:first-child td {
+  font-weight: bold;
+}
+
+#assignment a {
+  color: #d5c67a;
+}
+.center {
+  margin: 0 auto;
+  text-align: center;
+}
+
+footer {
+  margin-top: 20px;
+}
+
+a {
+  text-decoration: none;
+}

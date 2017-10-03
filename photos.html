@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Courtney Hall, Photos! | CNIT132 Intermediate HTML &amp; CSS</title>
+    <link rel="stylesheet" href="css/style-c.css">
+    <link href="https://fonts.googleapis.com/css?family=Kanit:800|Open+Sans" rel="stylesheet">
+    <style media="screen">
+    .content {
+      background-color: #736372;
+      margin: 0;
+      height: 1200px;
+    }
+    </style>
+  </head>
+  <body>
+
+   <div class="content">
+     <div class="img-container">
+       <div class="img-container-cell">
+         <a href="index.html"><h1 class="nametag">Courtney Hall</h1></a>
+         <h2 class="tagline">Web Developer</h2>
+         <a href="index.html"><img src="img/courtney.jpg" class="focal" alt=""></a>
+         <h1 class="welcome">Photos</h1>
+
+         <!-- photo grid start -->
+         <table id="grid">
+           <tr>
+             <td>
+               <img src="photos/20170428_173152.jpg" alt="" class="g-photo">
+               <div class="">
+                 Graduation from culinary school
+               </div>
+           </td>
+             <td>
+               <img src="photos/20170518_055027.jpg" alt="" class="g-photo">
+               <div class="">
+                 Cooking is a pasttime of mine
+               </div>
+             </td>
+             <td>
+               <img src="photos/20170827_103130.jpg" alt="" class="g-photo">
+               <div class="">
+                 Salmon platter with diced red peppers, parsley, capers and lemon slice garnish
+               </div>
+             </td>
+           </tr>
+           <tr>
+             <td>
+               <img src="photos/20170903_073154_HDR.jpg" alt="" class="g-photo">
+               <div class="">
+                 My day job is as a cook on the California Hornblower
+               </div>
+           </td>
+             <td>
+               <img src="photos/20170622_131145.jpg" alt="" class="g-photo">
+               <div class="">
+                 Chillin' in San Diego, CA
+               </div>
+             </td>
+             <td>
+               <img src="photos/20170815_200306.jpg" alt="" class="g-photo">
+               <div class="">
+                 Watching the DC Stars practice
+               </div>
+             </td>
+           </tr>
+         </table>
+         <!-- photo grid end -->
+
+         <a href="hw2.html"><p class="button">Homework 2</p></a>
+         <a href="about.html"><p class="button">About</p></a>
+         <div class="last-modified-container">
+           <p id="last-modified">Document last modified: </p>
+           <script type="text/javascript">
+             lastModifiedP = document.getElementById('last-modified');
+             lastModifiedP.innerHTML += " " + document.lastModified;
+           </script>
+         </div>
+       </div>
+     </div>
+   </div>
+  </body>
+</html>

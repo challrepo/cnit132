@@ -1,0 +1,147 @@
+body, html, .content, span img, .img-container, .focal {
+  margin: 0px;
+  height: 100%;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+nav table {
+  width: 100%;
+  background-color: #7a918d;
+  color: #fff;
+}
+
+.content {
+  background-color: #736372;
+  margin: 0;
+  height: 800px;
+}
+
+.content table tr td img {
+  padding: 0;
+  margin: 0;
+}
+
+
+
+.content-table  {
+  margin: 0px;
+}
+
+.image {
+  background-size: 100% 100%, cover;
+  background-repeat: no-repeat;
+  background-image: url(../img/courtney.jpg);
+}
+
+span img {
+  width: 30%;
+}
+
+.img-container {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+
+.img-container-cell {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.focal {
+  width: 150px;
+  height: 150px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+  border: 5px solid #a18276;
+
+}
+
+.nametag {
+    font-family: 'Kanit', sans-serif;
+      color: #dceed1;
+    letter-spacing: 1pt;
+    text-transform: uppercase;
+    margin: 0px;
+    padding: 0px;
+}
+
+.tagline {
+    margin: -10px auto;
+    padding-bottom: 15px;
+    color: #aac0aa;
+}
+
+p {
+  color: #dceed1;
+  width: 60%;
+  text-align: center;
+  margin: 0 auto;
+  padding: 5px;
+}
+
+p a, p a:visited, p a:active {
+  color: #dceed1;
+}
+.button {
+  border-radius: 5px;
+  background-color: #aac0aa;
+  width: auto;
+  padding: 7px;
+  color: #736372;
+  font-weight: bold;
+  display: inline-block;
+  margin: 7px auto;
+  margin-top: 12px;
+}
+
+.button:hover {
+  background-color: #a18276;
+  color: #dceed1;
+}
+
+.welcome {
+  color: #dceed1;
+  padding: 0px;
+  margin: 5px;
+}
+#last-modified {
+  text-align: center;
+  color: #dceed1;
+}
+
+.last-modified-container {
+  margin-top: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.g-photo {
+  width: 200px;
+  border: 8px solid #fff;
+}
+
+#grid {
+  display: table;
+  margin: 0 auto;
+  padding: 0px;
+  max-width: 600px;
+}
+
+#grid td {
+  padding: 10px;
+}
+
+#grid div {
+  color: #fff;
+}
+
+
+#validated {
+  text-align: center;
+}
